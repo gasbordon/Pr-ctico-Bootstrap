@@ -1,0 +1,212 @@
+h1{background:#C3FFFF;
+color:#C2C2C2 ;text-transform: uppercase; font: "arial";
+text-align: center;
+padding: 10PX;
+position: relative;
+
+}
+
+
+
+h3{background: ; color: #FFFFFF; font-size: xx-large;
+  text-align: center;
+}
+
+h4{color: #34495E ; font-size: x-large;
+text-decoration: underline;
+position: relative;
+text-align: center;
+}
+
+
+
+li{font-size:  x-large;}
+
+
+.imagenfondo img{
+background-repeat: no-repeat;
+background-size: 100% ;
+width: 100%;
+margin: 1%auto;
+border: 2px solid #FFFFFF;
+
+
+}
+
+footer{
+background-color: #ABB2B9;
+display: flex;
+margin-top: 2%;
+box-sizing: border-box;
+width: 100%;
+border: 2px solid #FFFFFF;
+}
+
+
+img.boton{
+  position:fixed;
+    width:45px;
+    height:45px;
+    line-height: 63px;
+    bottom:10px;
+    right:25px;
+    background:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:35px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index:100;
+    transition: all 300ms ease;
+
+}
+
+img.boton:hover{
+background: #20ba5a;
+text-decoration: none;
+background:#FFF;
+}
+
+
+.container1 section {
+background-color: #C3FFFF;
+width: 100%;
+height:300px;
+margin: 1%;
+border: 5px solid;
+overflow: auto;
+
+}
+.container1 aside {
+  background-color:#C3FFFF;
+  width: 100%;
+  height:300px;
+  margin: 1%;
+  border: 5px solid;
+  overflow: auto;
+}
+
+
+
+
+
+.cursito img{
+width: 300px;
+height: 300px;
+margin: 20%;
+border: 2px solid #FFFFFF;
+text-align: center;
+
+
+}
+
+@media(min-width:700px){
+  .cursito{
+    display: none;
+  }
+}
+
+
+@media(max-width:700px){
+  .contflex{
+    display: none;
+}
+}
+@media(max-width:700px){
+  .paginas{
+    display: none;
+
+}
+}
+
+@media(max-width:700px){
+  h3{color:#FD7B00  ;
+    border: black;
+    text-shadow: 2px 2px #040200;
+}
+}
+
+
+
+@media(max-width:700px){
+  .imagenfondo{
+    display: none;
+    background-size: 100%;
+
+}
+}
+
+@media(max-width:700px){
+  .imagenfondo{
+    display: none;
+    background-size: 100%;
+
+}
+}
+
+@media(max-width:700px){
+  .container3 iframe{
+    display: none;
+    background-size: 100%;
+
+}
+}
+
+body{
+  background-color: #566573;
+
+}
+
+
+@media(max-width:700px){
+  body{
+  background-color:#650C64  ;
+
+
+}
+}
+
+.redes icono{
+
+  margin: 0,5%;
+  padding: 1%;
+}
+}
+
+.card{
+background-color: #ABB2B9;
+margin: 1%;
+height: 100%;
+
+
+
+}
+
+.btn-primary{
+background-color:#F39C12;
+text-align: center;
+display: flex;
+justify-content: space-around;
+border: 2px solid;
+
+}
+
+.card-text{
+height:30vh;
+
+}
+
+.container3{
+
+display: flex;
+justify-content: space-around;
+padding: 5%;
+}
+
+
+
+.icono{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+}
